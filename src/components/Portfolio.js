@@ -1,7 +1,7 @@
 import React from 'react';
 import './Portfolio.css';
-import IMG1 from '../assets/portfolio2.png';
-import IMG2 from '../assets/portfolio3.png';
+import IMG1 from '../assets/portfo1.png';
+import IMG2 from '../assets/portfo2.png';
 import IMG3 from '../assets/portfolio4.png';
 import IMG4 from '../assets/portfolio5.png';
 import IMG5 from '../assets/portfolio6.png';
@@ -11,16 +11,16 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'This is a portfolio item title',
+    title: 'Website For Explore Global General Trading',
     github: 'https://github.com',
-    demo: 'https://dribbble.com/Alien_pixels',
+    demo: 'https://exploreglobalgentrad.com/',
   },
   {
     id: 2,
     image: IMG2,
-    title: 'This is a portfolio item title',
+    title: 'Website for Explore DMCC',
     github: 'https://github.com',
-    demo: 'https://dribbble.com/Alien_pixels',
+    demo: 'https://exploredmcc.com/',
   },
   {
     id: 3,

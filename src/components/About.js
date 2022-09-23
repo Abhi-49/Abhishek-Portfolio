@@ -38,10 +38,11 @@ function About() {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit . Eaque eos
-            voluptatem eius dolorem maiores nihil ducimus at rem ullam
-            reprehenderit quidem quia deserunt , molestiae , eligendiamet
-            repellat molestias quos totam .
+            Hey, I'm Nadar Abhishek Shobanam but I like being called Abhishek as
+            it's my first name. I am a Frontend Web Developer and Web Developer.
+            I like working with Wordpress which is a CMS tool. Passionate about
+            music as it is stress buster and am willing to learn new
+            technologies and creative coding.
           </p>
 
           <a href="#contact" className="btn btn-primary">
