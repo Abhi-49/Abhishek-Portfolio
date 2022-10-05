@@ -2,10 +2,6 @@ import React from 'react';
 import './Portfolio.css';
 import IMG1 from '../assets/portfo1.png';
 import IMG2 from '../assets/portfo2.png';
-import IMG3 from '../assets/portfolio4.png';
-import IMG4 from '../assets/portfolio5.png';
-import IMG5 from '../assets/portfolio6.png';
-import IMG6 from '../assets/portfolio7.png';
 
 const data = [
   {
@@ -21,34 +17,6 @@ const data = [
     title: 'Website for Explore DMCC',
     github: 'https://github.com',
     demo: 'https://exploredmcc.com/',
-  },
-  {
-    id: 3,
-    image: IMG3,
-    title: 'This is a portfolio item title',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/Alien_pixels',
-  },
-  {
-    id: 4,
-    image: IMG4,
-    title: 'This is a portfolio item title',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/Alien_pixels',
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: 'This is a portfolio item title',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/Alien_pixels',
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: 'This is a portfolio item title',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/Alien_pixels',
   },
 ];
 

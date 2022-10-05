@@ -1,10 +1,34 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './Contact.css';
 import { MdEmail } from 'react-icons/md';
 import { GrInstagram } from 'react-icons/gr';
 import { ImWhatsapp } from 'react-icons/im';
+import emailjs from 'emailjs-com';
 
 function Contact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        'service_6xh8ohj',
+        'template_fgaym7t',
+        form.current,
+        'vCc-H_3lW8SFJqffI'
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
+
   return (
     <section id="contact">
       <h5>Get in Touch</h5>
@@ -50,7 +74,7 @@ function Contact() {
           </article>
         </div>
 
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input
             type="text"
             name="name"

@@ -17,7 +17,7 @@ function About() {
         </div>
 
         <div className="about__content">
-          <div className="about__cards">
+          {/* <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
@@ -35,7 +35,7 @@ function About() {
               <h5>Projects</h5>
               <small>50+ Completed</small>
             </article>
-          </div>
+          </div> */}
 
           <p>
             Hey, I'm Nadar Abhishek Shobanam but I like being called Abhishek as
