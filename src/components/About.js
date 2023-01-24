@@ -17,11 +17,11 @@ function About() {
         </div>
 
         <div className="about__content">
-          {/* <div className="about__cards">
+          <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>6 months</small>
+              <small>8+ months</small>
             </article>
 
             <article className="about__card">
@@ -33,9 +33,9 @@ function About() {
             <article className="about__card">
               <FaFolder className="about__icon" />
               <h5>Projects</h5>
-              <small>50+ Completed</small>
+              <small>10+ Completed</small>
             </article>
-          </div> */}
+          </div> 
 
           <p>
             Hey, I'm Nadar Abhishek Shobanam but I like being called Abhishek as
