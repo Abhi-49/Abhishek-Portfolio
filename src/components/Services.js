@@ -18,6 +18,12 @@ function Services() {
             <li>
               <FaCheck className="service__list-icon" />
               <p>
+                Have experience creating web pages designs using Figma.
+              </p>
+            </li>
+            <li>
+              <FaCheck className="service__list-icon" />
+              <p>
                 Have experience building web pages using HTML, CSS and
                 Javascript
               </p>
@@ -74,13 +80,13 @@ function Services() {
 
         <article className="service">
           <div className="service__head">
-            <h3>Wordpress</h3>
+            <h3>Wordpress & Shopify</h3>
           </div>
 
           <ul className="service__list">
             <li>
               <FaCheck className="service__list-icon" />
-              <p>One of my favourite CMS tool used.</p>
+              <p>My favourite CMS tools used.</p>
             </li>
             <li>
               <FaCheck className="service__list-icon" />
@@ -99,6 +105,10 @@ function Services() {
             <li>
               <FaCheck className="service__list-icon" />
               <p>Can do SEO using Yoast/All in One SEO plugin.</p>
+            </li>
+            <li>
+              <FaCheck className="service__list-icon" />
+              <p>Can customise Shopify theme using the code editors.</p>
             </li>
           </ul>
         </article>

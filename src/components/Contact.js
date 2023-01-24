@@ -65,7 +65,7 @@ function Contact() {
             <h4>Whatsapp</h4>
             <h5>+971-525031087</h5>
             <a
-              href="mailto:abhisheknadar49@gmail.com"
+              href="https://wa.me/971525031087"
               target="_blank"
               rel="noreferrer"
             >

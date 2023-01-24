@@ -61,6 +61,20 @@ function Experience() {
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
+            <article className="experience__details">
+              <FaClipboardCheck className="experience__details-icons" />
+              <div>
+                <h4>Shopify</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <FaClipboardCheck className="experience__details-icons" />
+              <div>
+                <h4>Figma</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
           </div>
         </div>
         <div className="experience__backend">
